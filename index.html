@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Grade Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="iss_7696_60073.jpg" type="image/x-icon">
+</head>
+
+    <body>
+        <div id="new">
+            <h1>Grade Checker! &#9203;</h1>
+            
+            <input id="num1" type="number" placeholder="Enter your percentage">
+            
+           
+            <button onclick="checker()" id="checking" >Check Grade</button></div>
+           
+            <marquee  id="mark"style="background-color: brown ; color: white; margin: 20px; padding: 20px; border-radius: 3em; " onmouseover="this.stop();" onmouseout="this.start();" >
+                Scroll and view your result Best of Luck !!&#128512; &#128516; &#128525; &#128151;
+            </marquee>
+          
+            
+            
+                <h2 id="grade"></h2>
+                
+              
+            
+        </div>
+        
+        <script>
+    function checker() {
+        var num2 = document.getElementById("num1").value;
+       
+        if (num2 >= 0 && num2 < 50) {
+            alert('you are fail ')
+            document.getElementById("grade").innerText = "Grade : F";
+         
+        }
+        else if (num2 >= 50 && num2 < 60) {
+            alert('Congratulations!! you are Passed by D grade  ')
+            document.getElementById("grade").innerText = "Grade : D";
+        }
+        else if (num2 >= 60 && num2 < 70) {
+            alert('Congratulations!! you are Passed by C grade ')
+            document.getElementById("grade").innerText = "Grade : C";
+        }
+        else if (num2 >= 70 && num2 < 80) {
+            alert('Congratulations!!  you are Passed by B grade ')
+            document.getElementById("grade").innerText = "Grade : B";
+        }
+        else if (num2 >= 80 && num2 < 90) {
+            alert(' Congratulations!! you are Passed by A grade ')
+            document.getElementById("grade").innerText = "Grade : A";
+        }
+        else if (num2 >= 90 && num2 <= 100) {
+            alert('Congratulations!! you are Passed by A+1 grade ')
+            document.getElementById("grade").innerText = "Grade : A+";
+        }
+    }
+        </script>
+    </body>
+    </html>

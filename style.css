@@ -1,0 +1,52 @@
+h1{
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#num1{
+  border-radius: 8em;
+  padding: 10px;
+  margin-bottom: 11px;
+  text-align: end;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#new{
+    text-align: center;
+     margin-top: 10%;
+      /* background-image: url(checker.jpg ); */
+      background-repeat: no-repeat;
+      /* margin-left: 800px; 
+      margin-right: 800px; */
+      margin: 35px;
+      padding: 25px;
+      
+      height: 100px;
+      /* width: 1000px; */
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url(backgroung.jpg);
+    background-repeat: inherit;
+    height: 1000px;
+}
+#grade{
+    margin: 100px;
+    text-align: center;
+    padding: 100px;
+    background-color: brown;
+    color: white;
+    margin-top: 100px;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#checking{
+    margin: 1px;
+   padding: 5px;
+   color: white;
+   background-color: brown;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#mark{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
